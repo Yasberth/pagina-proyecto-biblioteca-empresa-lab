@@ -1,0 +1,156 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  .main-header {
+      text-align: center;
+      font-size: 3em;
+      color: #4a148c;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      font-family: 'Arial', sans-serif;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .back-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .back-button img {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .back-button img:hover {
+    opacity: 0.8;
+  }
+  
+  header {
+    background-color: #6a1b9a;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 4px solid #4a148c;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .solicitud {
+    background-color: #f4f4f4;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .solicitud p {
+    margin: 5px 0;
+  }
+  
+  footer {
+    width: 100%;
+    background-color: rgba(83, 83, 83, 0.575);
+    color: beige;
+  }
+  
+  .pietotal {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 50px;
+  }
+  
+  .cuerpo {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .columna1 {
+    max-width: 400px;
+  }
+  
+  .columna1 h1 {
+    font-size: 22px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+  }
+  
+  .columna1 p {
+    font-size: 14px;
+    color: antiquewhite;
+    margin-top: 20px;
+  }
+  
+  .Redes {
+    margin-top: 20px;
+    display: flex;
+  }
+  
+  .Redes img {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .Redes label {
+    margin-top: 15px;
+    margin-left: 20px;
+    color: bisque;
+  }
+  
+  .redes {
+    margin-top: 20px;
+    display: flex;
+  }
+  
+  .redes img {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .redes label {
+    margin-top: 15px;
+    margin-left: 20px;
+    color: bisque;
+  }
+  
+  .leyes {
+    width: 100%;
+    background-color: rgb(32, 32, 32);
+  }
+  
+  .derechos {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .copy {
+    color: rgb(209, 202, 101);
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .informacion a {
+    text-decoration: none;
+    color: white;
+  }
+  

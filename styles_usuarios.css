@@ -1,0 +1,172 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.main-header {
+    text-align: center;
+    font-size: 3em;
+    color: #4a148c;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Botón de volver atrás */
+.back-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.back-button img {
+    width: 40px;
+    height: 40px;
+}
+
+.back-button img:hover {
+    opacity: 0.8;
+}
+
+/* Contenedor principal */
+.container {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Botón Ver Usuarios */
+.boton {
+    padding: 10px 20px;
+    background-color: #4a148c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    display: block;
+    width: 200px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.boton:hover {
+    background-color: #6a1b9a;
+}
+
+/* Contenedor de los usuarios */
+#usuarios-container {
+    margin-top: 20px;
+}
+
+/* Estilos de la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    font-size: 16px;
+}
+
+th {
+    background-color: #4a148c;
+    color: white;
+}
+
+td {
+    background-color: #f9f9f9;
+}
+
+/* Estilos para el pie de página */
+footer {
+    width: 100%;
+    background-color: rgba(83, 83, 83, 0.575);
+    color: beige;
+    padding: 30px 0;
+    margin-top: 40px;
+    position: relative;
+}
+
+.pietotal {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.cuerpo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.columna1, .columna2, .columna3 {
+    max-width: 300px;
+}
+
+.columna1 h1, .columna2 h1, .columna3 h1 {
+    font-size: 22px;
+    color: white;
+    font-family: "Arial", sans-serif;
+}
+
+.columna1 p {
+    font-size: 14px;
+    color: antiquewhite;
+    margin-top: 20px;
+}
+
+.Redes, .redes {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.Redes img, .redes img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.Redes label, .redes label {
+    font-size: 14px;
+    color: bisque;
+}
+
+/* Estilos para el bloque inferior del pie */
+.leyes {
+    background-color: rgb(32, 32, 32);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.copy {
+    color: rgb(209, 202, 101);
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.informacion a {
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+}
+

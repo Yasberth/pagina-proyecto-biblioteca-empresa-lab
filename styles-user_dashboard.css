@@ -1,0 +1,180 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.main-header {
+  text-align: center;
+  font-size: 3em;
+  color: #4a148c;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: 'Arial', sans-serif;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+header {
+  background-color: #6a1b9a;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 4px solid #4a148c;
+}
+
+/* Botón Cerrar Sesión */
+/* Botón Cerrar Sesión */
+.logout-button {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: #6a1b9a;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 30px; /* Botón redondeado */
+  font-size: 16px;
+  cursor: pointer;
+  font-family: 'Arial', sans-serif;
+  transition: background-color 0.3s, transform 0.2s ease-in-out; /* Transiciones suaves */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+.logout-button:hover {
+  background-color: #4a148c; /* Cambia a un tono más oscuro al hacer hover */
+  transform: scale(1.05); /* Aumenta ligeramente el tamaño */
+}
+
+.logout-button:active {
+  transform: scale(0.95); /* Al hacer clic, se reduce un poco */
+  background-color: #311b92; /* Aún más oscuro al hacer clic */
+}
+
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.box {
+  width: 250px;
+  background-color: #e1bee7;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.2s ease-in-out;
+}
+
+.box:hover {
+  transform: scale(1.05);
+}
+
+.box h2 {
+  margin-top: 0;
+}
+
+.user-column {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.user-column img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+footer {
+  width: 100%;
+  background-color: rgba(83, 83, 83, 0.575);
+  color: beige;
+}
+
+.pietotal {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 50px;
+}
+
+.cuerpo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.columna1 {
+  max-width: 400px;
+}
+
+.columna1 h1 {
+  font-size: 22px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+.columna1 p {
+  font-size: 14px;
+  color: antiquewhite;
+  margin-top: 20px;
+}
+
+.Redes {
+  margin-top: 20px;
+  display: flex;
+}
+
+.Redes img {
+  width: 50px;
+  height: 50px;
+}
+
+.Redes label {
+  margin-top: 15px;
+  margin-left: 20px;
+  color: bisque;
+}
+
+.redes {
+  margin-top: 20px;
+  display: flex;
+}
+
+.redes img {
+  width: 50px;
+  height: 50px;
+}
+
+.redes label {
+  margin-top: 15px;
+  margin-left: 20px;
+  color: bisque;
+}
+
+.leyes {
+  width: 100%;
+  background-color: rgb(32, 32, 32);
+}
+
+.derechos {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.copy {
+  color: rgb(209, 202, 101);
+  font-size: 25px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.informacion a {
+  text-decoration: none;
+  color: white;
+}

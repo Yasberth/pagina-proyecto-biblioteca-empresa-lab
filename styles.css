@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main-header {
+    text-align: center;
+    font-size: 3em;
+    color: #4a148c;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo para el nuevo contenedor con fondo */
+.fondo-contenedor {
+    background-color: #eaeaea; /* Puedes cambiar este color a #d1c4e9 si prefieres púrpura claro */
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.contenedor {
+    flex: 1;
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    min-height: calc(100vh - 100px);
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu-izquierdo, .menu-derecho {
+    background-color: rgba(222, 225, 244, 255);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenido-central {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen-central {
+    width: 400px;
+    height: auto;
+}
+
+.formulario {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(222, 225, 244, 255);
+    max-width: 300px;
+    margin: 10px;
+    display: none;
+}
+
+.boton, .campo-formulario {
+    width: 100%;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #ac34db;
+    color: #fff;
+    cursor: pointer;
+}
+
+.campo-formulario {
+    width: calc(100% - 12px);
+}
+
+footer {
+    width: 100%;
+    background-color: rgba(83, 83, 83, 0.575);
+    color: beige;
+}
+
+.pietotal {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 50px;
+}
+
+.cuerpo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.columna1 h1 {
+    font-size: 22px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+

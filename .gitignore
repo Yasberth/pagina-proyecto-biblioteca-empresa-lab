@@ -1,0 +1,18 @@
+# Credenciales / configuración sensible
+db_connect.php
+.env
+
+# Logs
+*.log
+
+# Dependencias (si algún día usas Composer o Node)
+vendedor/
+node_modules/
+
+#Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/

@@ -1,0 +1,130 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  display: block;
+  min-height: 100px;
+  background-color: #f4f4f4;
+}
+
+.main-header {
+  text-align: center;
+  font-size: 3em;
+  color: #4a148c; 
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: 'Arial', sans-serif;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+header {
+  background-color: #6a1b9a;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 4px solid #4a148c;
+}
+
+/* Botón Cerrar Sesión */
+.logout-button {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: #6a1b9a;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: 'Arial', sans-serif;
+  transition: background-color 0.3s, transform 0.2s ease-in-out;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logout-button:hover {
+  background-color: #4a148c;
+  transform: scale(1.05);
+}
+
+.logout-button:active {
+  transform: scale(0.95);
+  background-color: #311b92;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.COLUMNA1 {
+  width: 200px;
+  background-color: #4a148c;
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.COLUMNA1 img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  margin-bottom: 10px;
+}
+
+.COLUMNA1 h3 {
+  margin: 0;
+  font-size: 18px;
+  text-align: center;
+}
+
+.COLUMNA2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+.box {
+  width: calc(25% - 20px);
+  background-color: #e1bee7;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  padding: 20px;
+  text-align: center;
+  margin: 10px;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.box:hover {
+  transform: scale(1.05);
+}
+
+.box img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.box h3 {
+  margin: 0;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.box p {
+  margin: 0;
+  font-size: 14px;
+}
