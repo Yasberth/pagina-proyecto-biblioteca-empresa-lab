@@ -9,5 +9,6 @@ Proyecto web hecho con PHP, JavaScript, HTML y CSS.
 Abrir el proyecto en un servidor local (XAMPP/WAMP) y acceder a index.php
 
 ## Requisitos
+
 - PHP (XAMPP/WAMP)
-- MySQL 8.0+ (o MariaDB)
+- MySQL 5.7+ (recomendado 8.0+ o MariaDB)
