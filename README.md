@@ -10,4 +10,4 @@ Abrir el proyecto en un servidor local (XAMPP/WAMP) y acceder a index.php
 
 ## Requisitos
 - PHP (XAMPP/WAMP)
-- MySQL
+- MySQL 8.0+ (o MariaDB)
